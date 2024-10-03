@@ -3,9 +3,14 @@ import streamlit as st
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+
+# Cek working directory
+st.write("Current working directory:", os.getcwd())
+
 
 # Membaca data dari main_data.csv
-main_data_df = pd.read_csv('main_data.csv')  # Ganti dengan path yang sesuai
+main_data_df = pd.read_csv('main_data.csv')  
 
 
 # Judul dashboard
