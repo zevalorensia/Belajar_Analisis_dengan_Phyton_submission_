@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-# Cek working directory
-st.write("Current working directory:", os.getcwd())
-
 
 main_data_df = pd.read_csv('dashboard/main_data.csv')
 
