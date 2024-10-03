@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Membaca data dari main_data.csv
-main_data_df = pd.read_csv('/dashboard/main_data.csv')  # Ganti dengan path yang sesuai
+main_data_df = pd.read_csv('main_data.csv')  # Ganti dengan path yang sesuai
 
 
 # Judul dashboard
