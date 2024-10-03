@@ -9,8 +9,7 @@ import os
 st.write("Current working directory:", os.getcwd())
 
 
-# Membaca data dari main_data.csv
-main_data_df = pd.read_csv('main_data.csv')  
+main_data_df = pd.read_csv('dashboard/main_data.csv')
 
 
 # Judul dashboard
